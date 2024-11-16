@@ -1,0 +1,123 @@
+:root{
+    --bs-body-font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+    
+}
+.about:hover{
+    background-color: #248831;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05); 
+    border-radius: 5px;
+   
+}
+.shop:hover{
+    background-color: #248831;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05); 
+    border-radius: 5px;  
+}
+.home:hover{
+    background-color: #248831;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05); 
+    border-radius: 5px;
+}
+.btn-dark:hover {
+    background-color: #248831; 
+    color: #f1ebeb;        
+    transform: scale(1.05); 
+    transition: 0.3s ease-in-out; 
+}
+
+/*best seller*/
+.section-title {
+    
+    font-size: 26px;
+    margin-bottom: 1rem;
+    color: #333;
+    
+}
+.product-card img{
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.2s;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.product-title {
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.product-price {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-buy {
+    background-color: green;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+.btn-buy:hover{
+    background-color: green; 
+    color: #fff;
+}
+
+
+.btn-shopnow {
+    background-color: green;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    margin-bottom: 35px;
+
+    
+}
+.btn-shopnow:hover {
+    background-color: green; 
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+
+/*footer*/
+.mb-0{
+    font-size: 100%;
+}
+.con{
+    font-size: 70%;
+}
+.row{
+    text-align: center;
+}
+.contact-info-box h5 {
+    text-align: center;
+    flex: 1;                
+}
+.mdfreshshop{
+    font-size: 45%;
+}
+
+
+
+
+    
+
+

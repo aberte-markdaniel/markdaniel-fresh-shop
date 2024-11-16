@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Fresh Shop</title>
+  <link rel="icon" href="../images/MD (3).png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-secondary ">
+        <div class="container ">
+          <a class="navbar-brand fw-bold">
+            <img src="../images/MD (3).png" alt="Logo" width="45" height="38"   class="s d-inline-block align-top rounded ">
+            MD Fresh Shop
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item pe-5">
+                <a class="home nav-link active fw-bold text-dark" href="index.html">Home</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="shop nav-link active fw-bold text-dark" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="about nav-link active fw-bold text-dark " href="About.html">About</a>
+              </li>
+              <li class=" nav-item pe-5">
+                <a class="btn btn-dark contact-btn" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+    <div class="container contact-container bg-body-secondary">
+        <div class="text-center mb-5">
+            <h2>Get In Touch With Us</h2>   
+        </div>
+        
+        <div class="row">
+            <div class="col-md-5 info-box">
+                <p style="text-align: justify;">Have a question? We're here to help. Our friendly and knowledgeable customer experience team MD Fresh shop is here to ensure you will feel supported. Feel free to reach us via phone, email, or the form. You may also refer to our <a href="About.html">FAQ</a> page for quick answers to commonly asked questions.</p>
+                <p><strong>Address:</strong> 6545 Kawayan, Biliran</p>
+                <p><strong>Phone:</strong> # 0962-323-4313</p>
+                <p><strong>Email:</strong> MDfreshshop@gmail.com</p>
+            </div>
+            
+            <div class="col-md-7">
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <select id="inquiry-subject" name="subject" class="form-control">
+                            <!-- Options will be populated by JavaScript -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit bg-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer class=" footer bg-dark text-light">
+      <section class="contact-section ">
+          <div class="container">
+          <h2 class="text-center mb-4 pt-4 fs-5">Contact MD Fresh Shop</h2>
+          <p class="text-center mb-5 .fs-6 fw-light">We're here to help with any questions or support you may need.</p>
+          
+          <div class="row" style="text-align: center;">
+              <div class=" col-md-4">
+                  <div class="contact-info-box d-inline-block ">
+                      <div class="d-flex align-items-center mb-3 ">
+                        <box-icon name='time-five' size="sm" class="me-1" color="white"></box-icon>
+                          <h5 class="mb-0">Customer Service Hours</h5>
+                      </div>
+                      <p class="con mb-0">Monday-Saturday 9:00 am to 6:00 pm</p>
+                  </div>
+              </div>
+              
+              <div class=" col-md-4">
+                  <div class=" contact-info-box d-inline-block">
+                      <div class="d-flex align-items-center mb-3">
+                          <box-icon name='location-plus' size="sm" class="me-1"  color="white"></box-icon>
+                          <h5 class="mb-0">Our Address</h5>
+                      </div>
+                      <p class="con mb-0">6545 Kawayan, Biliran</p>
+                  </div>
+              </div>
+              
+              <div class="col-md-4">
+                  <div class="contact-info-box d-inline-block ">
+                      <div class="d-flex align-items-center mb-3">
+                        <box-icon type='solid' name='phone' size="sm" class="me-1"  color="white"></box-icon>  
+                          <h5 class="mb-0">Call Us</h5>
+                      </div>
+                      <p class=" con mb-0"># 0962-323-4313</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <div class="container">
+          <div class="textshop text-center mt-3 ">
+              <small class="mdfreshshop">© MD Fresh Shop 2024, Your gateway to farm-fresh vegetables. All Rights Reserved.</small>
+          </div>
+      </div>
+    </footer>
+
+
+
+
+  <script src="../js/contact.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>   
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="../bootstrap/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

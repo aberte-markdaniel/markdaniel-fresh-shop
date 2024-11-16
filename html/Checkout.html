@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Fresh Shop</title>
+  <link rel="icon" href="../images/MD (3).png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/checkout.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-secondary ">
+        <div class="container ">
+          <a class="navbar-brand fw-bold">
+            <img src="../images/MD (3).png" alt="Logo" width="45" height="38"   class="s d-inline-block align-top rounded ">
+            MD Fresh Shop
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item pe-5">
+                <a href="index.html" class="home nav-link active fw-bold text-dark" >Home</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a href="shop.html" class="shop nav-link active fw-bold text-dark">Shop</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a  href="About.html" class="about nav-link active fw-bold text-dark ">About</a>
+              </li>
+              <li class=" nav-item pe-5">
+                <a href="contact.html" class="btn btn-dark contact-btn" >Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    
+    <button onclick="window.history.back()" class="btn btn-outline-success ms-5 mt-4">
+        <i class="bi bi-arrow-left"></i> Back
+    </button>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-8 animate-up">
+                <h4>Billing Details</h4>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" class="form-control" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                </form>
+                <h4>Payments Methods</h4>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="card p-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-credit-card me-2"></i>
+                                <span>Credit or Debit Card</span>
+                                <input type="radio" name="paymentMethod" class="ms-auto form-check-input" checked>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fab fa-paypal me-2"></i>
+                                <span>Paypal</span>
+                                <input type="radio" name="paymentMethod" class="ms-auto form-check-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-2 mt-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-university me-2"></i>
+                                <span>Direct Bank Transfer</span>
+                                <input type="radio" name="paymentMethod" class="ms-auto form-check-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-2 mt-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-money-bill-alt me-2"></i>
+                                <span>Cash on Delivery</span>
+                                <input type="radio" name="paymentMethod" class="ms-auto form-check-input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4>Payments Details</h4>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Enter Name Card" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="date" class="form-control" placeholder="Select Date" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Last Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="CVV Code" required>
+                        </div>
+                    </div>
+                    <p><i class="fas fa-lock me-2"></i>Your Transaction is Secured with SSL Encryption</p>
+                </form>
+            </div>
+            <div class="col-lg-4 order-summary animate-up pb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Order Summary</h5>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <img src="../images/eggplant.png" alt="eggplant">
+                            <div class="d-flex justify-content-between w-100">
+                                <span>Eggplant</span>
+                                <span>Php 35</span>
+                            </div>
+                        </div>
+                        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734; (20 Reviews)</span>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <img src="../images/chayote.png" alt="eggplant">
+                            <div class="d-flex justify-content-between w-100">
+                                <span>Chayote</span>
+                                <span>Php 35</span>
+                            </div>
+                        </div>
+                        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734; (20 Reviews)</span>
+                        <hr>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Coupon Code">
+                            <button class="btn btn-dark">Apply Coupon</button>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Subtotal</span>
+                            <span>$230.00</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Coupon Discount</span>
+                            <span>-$10</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <strong>TOTAL</strong>
+                            <strong>$230.00</strong>
+                        </div>
+                        <p class="mt-3 small">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#">privacy policy</a>.</p>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" required>
+                            <label class="form-check-label">I have read and agree to the website terms and conditions</label>
+                        </div>
+                        <a href="index.html"><button class="btn btn-success btn-submit w-100">Proceed to Checkout</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <!--Footer-->
+    <footer class=" footer-section bg-dark text-light  ">
+        <section class="contact-section ">
+                <div class="container">
+                <h2 class="text-center mb-4 pt-4 fs-5">Contact MD Fresh Shop</h2>
+                <p class="text-center mb-5 .fs-6 fw-light">We're here to help with any questions or support you may need.</p>
+                
+                <div class="row g-4">
+                    <div class=" col-md-4">
+                        <div class="contact-info-box d-inline-block ">
+                            <div class="d-flex align-items-center mb-3 ">
+                            <box-icon name='time-five' size="sm" class="me-1" color="white"></box-icon>
+                                <h5 class="mb-0">Customer Service Hours</h5>
+                            </div>
+                            <p class="con mb-0">Monday-Saturday 9:00 am to 6:00 pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class=" col-md-4">
+                        <div class=" contact-info-box d-inline-block ">
+                            <div class="d-flex align-items-center mb-3">
+                                <box-icon name='location-plus' size="sm" class="me-1"  color="white"></box-icon>
+                                <h5 class="mb-0">Our Address</h5>
+                            </div>
+                            <p class="con mb-0">6545 Kawayan, Biliran</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="contact-info-box d-inline-block ">
+                            <div class="d-flex align-items-center mb-3">
+                            <box-icon type='solid' name='phone' size="sm" class="me-1"  color="white"></box-icon>  
+                                <h5 class="mb-0">Call Us</h5>
+                            </div>
+                            <p class=" con mb-0"># 0962-323-4313</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="textshop text-center mt-3 ">
+                <small class="mdfreshshop">© MD Fresh Shop 2024, Your gateway to farm-fresh vegetables. All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+        
+       
+
+
+      
+
+    
+   
+    <script src="../js/checkout.js"></script>
+    <script src="../bootstrap/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+   
+
+        
+</body>
+</html>

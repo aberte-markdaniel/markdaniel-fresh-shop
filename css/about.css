@@ -1,0 +1,141 @@
+:root{
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  
+}
+.about:hover{
+  background-color: #248831;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05); 
+  border-radius: 5px;
+ 
+}
+.shop:hover{
+  background-color: #248831;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05); 
+  border-radius: 5px;  
+}
+.home:hover{
+  background-color: #248831;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05); 
+  border-radius: 5px;
+}
+.btn-dark:hover {
+  background-color: #248831; 
+  color: #f1ebeb;         
+  transform: scale(1.05); 
+  transition: 0.3s ease-in-out; 
+}
+
+
+
+.mb-0{
+    font-size: 100%;
+}
+.con{
+    font-size: 70%;
+}
+.row{
+    text-align: center;
+}
+.contact-info-box h5 {
+    text-align: center;
+    flex: 1;                
+}
+.mdfreshshop{
+    font-size: 45%;
+}
+
+
+.text-title{
+    padding-top: 25px;
+}
+.process-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .process-section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .process-section p {
+    color: #000;
+    margin-bottom: 40px;
+  }
+  .card-text {
+    font-size: 0.95rem;
+  
+  }
+  .card-title{
+    font-size: 1.20rem;
+    font-weight: bold;
+  }
+  .card-body{
+    background-color: #e0ebe1;
+  }
+
+
+  .team-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .team-section h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .team-section p {
+    color:#000;
+  }
+  .team-member {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .team-member img {
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+  }
+  .team-member h5 {
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .team-member p {
+    color: #000;
+    font-size: 14px;
+  }
+
+    /* Custom hover effect for the video container */
+  .video-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .video-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+  .content-mission {
+    background-color: #e0ebe1; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 250px;
+}
+
+.content-vision{
+  background-color: #e0ebe1; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
